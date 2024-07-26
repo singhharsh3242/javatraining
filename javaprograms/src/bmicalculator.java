@@ -14,21 +14,21 @@ public class  bmicalculator{
         double height = scanner.nextDouble();
 
         // Calculate BMI
-        double bmi = calculateBMI(weight, height);
+       double bmi = calculateBMI(weight, height);
 
         // Display the BMI
         System.out.println("Your Body Mass Index (BMI) is: " + bmi);
 
         // Interpret BMI
-        interpretBMI(bmi);
+       interpretBMI(bmi);
 
         scanner.close();
     }
 
-    // Method to calculate BMI
-    public static double calculateBMI(double weight, double height) {
+   // Method to calculate BMI
+   public static double calculateBMI(double weight, double height) {
         return weight / (height * height);
-    }
+  }
 
     // Method to interpret BMI
     public static void interpretBMI(double bmi) {
